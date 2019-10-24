@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.RegoleController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="750.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bolo%20copia.jpg" />
+         </image>
+      </ImageView>
+      <VBox fx:id="home" prefHeight="500.0" prefWidth="667.0">
+         <children>
+            <Text fx:id="text" fill="LAVENDERBLUSH" fontSmoothingType="LCD" lineSpacing="4.0" smooth="false" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="IL QUIZ PREVEDE DI RISPONDERE A DOMANDE INERENTI A CURIOSITA’ SULLA CITTA’ DI BOLOGNA.  &#10;1)IL NUMERO MASSIMO DEI GIOCATORI E’ 4&#10;2)PRIMA DI INIZIARE SI SCEGLIE LA DIFFICOLTA’ DEL QUIZ (FACILE, MEDIA, DIFFICILE)&#10;3)OGNI PARTITA PREVEDE DI RISPONDERE A 5 DOMANDE, TRA CUI SONO COMPRESE DOMANDE VERO O FALSO, DOMANDE A RISPOSTA MULTIPLA E DOMANDE “PERDI TUTTO”&#10;4)OGNI DOMANDA CORRETTA VALE UN PUNTO, LE RISPOSTE SBAGLIATE VALGONO 0 PUNTI&#10;5)LE DOMANDE PERDI TUTTO PREVEDONO L’AZZERAMENTO DEL PUNTEGGIO IN CASO DI RISPOSTA ERRATA&#10;6)NON C’E’ LIMITE DI TEMPO&#10;7)VINCE CHI POSSIEDE IL PUNTEGGIO MASSIMO&#10;&#10;PER ULERIORI DOMANDE, VISITARE LA ZONA “HELP” DEL MENU’ A TENDINA NELLA PAGINA PRINCIPALE.&#10;" textAlignment="CENTER" wrappingWidth="560.0700225830078">
+               <font>
+                  <Font name="AppleGothic Regular" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="55.0" top="65.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="indietro" mnemonicParsing="false" onAction="#indietro" prefHeight="18.0" prefWidth="71.0" style="-fx-background-color: #FFF0F5;;" text="&lt; Indietro" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets left="30.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="AppleGothic Regular" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

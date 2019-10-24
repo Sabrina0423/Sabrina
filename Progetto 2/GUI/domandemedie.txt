@@ -1,0 +1,16 @@
+1;vf;Bologna è detta “la Grassa” perché i bolognesi hanno il peso medio superiore alla media italiana;Vero;Falso;0;
+2;vf;Bologna è detta “La rossa” per le tendenze politiche;Vero;Falso;1;
+3;vf;Il famoso vaso rotto si trova in cima alla torre degli asinelli;Vero;Falso;1;
+4;vf;La torre degli asinelli sfiora i 150m;Vero;Falso;0;
+5;vf;Laura Bassi è stata una fisica Bolognese;Vero;Falso;1;
+6;vf;La torta di riso, tipico dolce bolognese, contiene mandorle;Vero;Falso;1;
+7;vf;Bologna è la città italiana pioniera per i diritti LGBT;Vero;Falso;1;
+8;vf;Bologna ha più di 300.000 abitanti;Vero;Falso;1;
+9;vf;Bologna è stata capitale d’italia nel 1300;Vero;Falso;0;
+10;rm;Per quanti km i portici si estendono nella città di Bologna;40;50;60;70;0;
+11;rm; Bologna ha più di quanti abitanti?;150000;200000;300000;2500000;1;
+12;rm;Dov'è situata una delle sedi dell'unibo?;Los Angeles;NewYork;BuenosAires;Santa Cruz;2;
+13;ap;Quanti segreti ha Bologna?;7;
+14;ap;Una canzone di Lucio Dalla cita:"A Bologna non si perde neanche un...";bambino;
+15;ap;In che anno Bologna è stata capitale europea della cultura?;2000;
+16;ap;L'attentato alla stazione di Bologna avvenne nell'anno?;1980;

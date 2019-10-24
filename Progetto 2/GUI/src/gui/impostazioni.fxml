@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ImpostazioniController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="750.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bolo%20copia.jpg" />
+         </image>
+      </ImageView>
+      <VBox accessibleRole="RADIO_BUTTON" layoutX="24.0" layoutY="221.0" prefHeight="285.0" prefWidth="640.0">
+         <children>
+            <Text fx:id="text31" fill="WHITE" fontSmoothingType="LCD" smooth="false" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Difficoltà domande:" textAlignment="JUSTIFY" wrappingWidth="217.0700225830078">
+               <font>
+                  <Font name="AppleGothic Regular" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="200.0" top="10.0" />
+               </VBox.margin>
+            </Text>
+            <RadioButton fx:id="facile1" mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" text="Facile" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="AppleGothic Regular" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="50.0" top="40.0" />
+               </VBox.margin>
+               <toggleGroup>
+                  <ToggleGroup fx:id="difficultylevel1" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="medio1" mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" text="Medio" textAlignment="JUSTIFY" textFill="WHITE" toggleGroup="$difficultylevel1">
+               <font>
+                  <Font name="AppleGothic Regular" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="250.0" top="-40.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="difficile1" mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" text="Difficile" textAlignment="JUSTIFY" textFill="WHITE" toggleGroup="$difficultylevel1">
+               <font>
+                  <Font name="AppleGothic Regular" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="450.0" top="-40.0" />
+               </VBox.margin>
+            </RadioButton>
+            <Button fx:id="avviaPartita" mnemonicParsing="false" onAction="#avviaPartita" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #FFF0F5;" text="Avvia partita" textAlignment="CENTER">
+               <font>
+                  <Font name="AppleGothic Regular" size="13.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="240.0" top="50.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="indietro" mnemonicParsing="false" onAction="#indietro" prefHeight="18.0" prefWidth="71.0" style="-fx-background-color: #FFF0F5;;" text="&lt; Indietro" textAlignment="CENTER">
+               <font>
+                  <Font name="AppleGothic Regular" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox accessibleRole="RADIO_BUTTON" layoutX="24.0" layoutY="14.0" prefHeight="194.0" prefWidth="640.0">
+         <children>
+            <Text fill="WHITE" fontSmoothingType="LCD" smooth="false" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero giocatori:" textAlignment="JUSTIFY" wrappingWidth="217.0700225830078">
+               <font>
+                  <Font name="AppleGothic Regular" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="200.0" top="40.0" />
+               </VBox.margin>
+            </Text>
+            <RadioButton fx:id="uno" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="1" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="AppleGothic Regular" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="50.0" top="30.0" />
+               </VBox.margin>
+               <toggleGroup>
+                  <ToggleGroup fx:id="numerogiocatori" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="due" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="2" textAlignment="JUSTIFY" textFill="WHITE" toggleGroup="$numerogiocatori">
+               <font>
+                  <Font name="AppleGothic Regular" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="200.0" top="-40.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="quattro" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="4" textAlignment="JUSTIFY" textFill="WHITE" toggleGroup="$numerogiocatori">
+               <font>
+                  <Font name="AppleGothic Regular" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="500.0" top="-40.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="tre" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="3" textAlignment="JUSTIFY" textFill="WHITE" toggleGroup="$numerogiocatori">
+               <font>
+                  <Font name="AppleGothic Regular" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="350.0" top="-40.0" />
+               </VBox.margin>
+            </RadioButton>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
